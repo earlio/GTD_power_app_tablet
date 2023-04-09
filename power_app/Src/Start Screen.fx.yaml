@@ -1,3 +1,6 @@
 "'Start Screen' As screen":
-    OnVisible: =// earl@earl.io 2023-04-09
+    OnVisible: |-
+        =// earl@earl.io 2023-04-09
+        
+        // key globals go here
 
