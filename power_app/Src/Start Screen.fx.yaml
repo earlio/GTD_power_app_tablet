@@ -4,3 +4,25 @@
         
         // key globals go here
 
+    Label1 As label:
+        Text: =CountRows(PowerAppsforMakers.GetAppVersions(First(Filter(PowerAppsforMakers.GetApps().value,properties.displayName = "GTD Tablet 2023-04")).name).value)
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Gallery1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Items: =PowerAppsforMakers.GetAppVersions(App.
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        X: =726
+        Y: =193
+        ZIndex: =2
+
+    Label1_1 As label:
+        Text: =CountRows(PowerAppsforMakers.GetAppVersions(First(Filter(PowerAppsforMakers.GetApps().value,properties.displayName = "GTD Tablet 2023-04")).name).value)
+        X: =27
+        Y: =129
+        ZIndex: =3
+

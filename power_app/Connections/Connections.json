@@ -1,1 +1,17 @@
-{}
+{
+  "7a4bd00f-e790-42d2-a547-d89f381bbe60": {
+    "connectionRef": {
+      "displayName": "Power Apps for Makers",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3312/powerappsforappmakers/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_powerappsforappmakers"
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerAppsforMakers",
+      "PowerAppsforMakers_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7a4bd00f-e790-42d2-a547-d89f381bbe60"
+  }
+}

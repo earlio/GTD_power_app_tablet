@@ -3,43 +3,67 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Start Screen": 3
+    "Gallery1": 6,
+    "galleryTemplate1": 7,
+    "Host": 3,
+    "Label1": 5,
+    "Label1_1": 8,
+    "Start Screen": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/16/2023 21:05:39",
+  "HeaderLastSavedDateTimeUTC": "09/11/2023 08:02:20",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "7a4bd00f-e790-42d2-a547-d89f381bbe60": "\"/providers/microsoft.powerapps/apis/shared_powerappsforappmakers/connections/a8bc5cc7278548e49843d00354062c0b\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 2,
+    "PowerAppsforMakers": 0,
+    "PowerAppsforMakers_1": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 1,
+    "label": 0
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Host": {},
+    "Label1": {},
+    "Label1_1": {},
     "Start Screen": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Gallery1": 1,
+    "galleryTemplate1": 2,
+    "Host": 0,
+    "Label1": 0,
+    "Label1_1": 0,
     "Start Screen": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0333324,
+    "AnalysisLoadTime": 0.038516,
     "ControlCount": {
+      "label": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 3.3452461,
-    "ErrorCount": 0
+    "DeserializationLoadTime": 0.1864673
   },
-  "WasLocalDatabaseReferencesEmpty": true
+  "WasLocalDatabaseReferencesEmpty": false
 }
